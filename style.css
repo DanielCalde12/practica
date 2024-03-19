@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+
+}
+
+img{
+    max-width: 100%;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+
+}
+
+.header {
+    display: flex;              /* Use flexbox for header layout */
+    justify-content: space-between; /* Align items horizontally with spacing */
+    align-items: center;             /* Align items vertically */
+    padding: 10px 20px;
+    background-color: #f0f0f0;  /* Optional background color */
+  }
+  
+  .header-content {
+    display: flex;        /* Ensure side-by-side arrangement within header */
+    width: 100%;          /* Fill the header's width */
+  }
+  
+  .navbar {
+    flex-grow: 1;         /* Allow nav to expand as needed */
+    /* ... other nav styles ... */
+  }
+  
+  .dropdown-container {
+    /* ... dropdown-container styles ... */
+  }
+  
+  
+
+
+/* .header{
+    display: flex;
+    align-items: center;
+    min-height: 80vh;
+    background-color: white;
+
+}
+
+.navbar{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.navbar-brand img{
+    float: left;
+    width: 100px;
+    height: 100px;
+} */
+
+.carrosel h5{
+    font-size: 40px;
+    color: black;
+    text-align: center;
+    background-color: rgb(151, 151, 30);
+}
+
+.carrosel p{
+    font-size: 20px;
+    font-weight: 500;
+    color: black;
+    text-align: center;
+    background-color: rgb(151, 151, 30);
+}
